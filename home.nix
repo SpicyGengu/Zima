@@ -77,9 +77,13 @@
 
 	programs.kitty = {
 		enable = true;
-
+		font = {
+			name = "CaskaydiaCove Nerd Font Mono";
+			size = 12;
+		};
 		settings = {
 			background_opacity = 0.75;
+			symbol_map = "U+e000-U+f8ff,U+f0000-U+ffffd,U+100000-U+10fffd Symbols Nerd Font Mono";
 		};
 	};
 

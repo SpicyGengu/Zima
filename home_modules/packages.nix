@@ -13,8 +13,11 @@
 		inputs.claude-desktop.packages.${pkgs.stdenv.hostPlatform.system}.claude-desktop
 		inputs.DTUConnect.packages.${pkgs.stdenv.hostPlatform.system}.default
 		kdePackages.kdeconnect-kde
+		libreoffice
 		librewolf-bin
+		nerd-fonts.symbols-only
 		obsidian
+		#omnissa-horizon-client
 		qFlipper
 		rustup
 		spicetify-cli

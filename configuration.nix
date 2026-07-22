@@ -28,10 +28,11 @@
   networking.networkmanager.enable = true;
 
   # Set your time zone.
-  time.timeZone = "Europe/Copenhagen";
+  time.timeZone = "Australia/Sydney"; #"Europe/Copenhagen";
 
   services.getty.autologinUser = "lovro";
   services.udisks2.enable = true;
+  services.udev.packages = [ pkgs.qFlipper ];
 
   programs.hyprland = {
     enable = true;
@@ -66,7 +67,7 @@
   users.users.lovro = {
     isNormalUser = true;
     description = "lovro";
-    extraGroups = [ "networkmanager" "wheel" "storage" "video" "tss" ];
+    extraGroups = [ "networkmanager" "wheel" "storage" "video" "tss" "dialout" ];
     packages = with pkgs; [
       tree
     ];
