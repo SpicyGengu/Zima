@@ -177,6 +177,7 @@
 				"$mainMod, 9, workspace, 9"
 				"$mainMod, 0, workspace, 10"
 				"$mainMod, tab, workspace, e+1"
+				"$mainMod SHIFT, tab, workspace, e-1"
 				
 				# Move to workspace
 				"$mainMod SHIFT, 1, movetoworkspace, 1"
