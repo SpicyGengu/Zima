@@ -143,15 +143,22 @@
     zip
   ];
 
-  fonts.packages = builtins.filter lib.attrsets.isDerivation (builtins.attrValues pkgs.nerd-fonts);
+  fonts.packages = [
+    pkgs.nerd-fonts.code-new-roman
+    pkgs.nerd-fonts.caskaydia-cove
+    pkgs.nerd-fonts.symbols-only
+  ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # nix.gc = {
-  #   automatic = true;
-  #   dates = "daily";
-  #   options = "--delete-older-than +5";
-  # };
+  programs.nh = {
+    enable = true;
+    clean = {
+      enable = true;
+      dates = "daily";
+      extraArgs = "--keep 5 --keep-since 3d";
+    };
+  };
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
