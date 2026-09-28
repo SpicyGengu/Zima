@@ -8,12 +8,12 @@
         ]
       },
       "locked": {
-        "lastModified": 1782844027,
-        "narHash": "sha256-6t1UaXLzo48zXezr2/Ioqh+qRx6zDH2gQHfZZSro3II=",
-        "rev": "bb728b8610bc638cc5e0f5400506446dc00a8e08",
-        "revCount": 166,
+        "lastModified": 1790230841,
+        "narHash": "sha256-66XYXurSAE7955hCscLNPi385aPp7vaB7vlvI/mb9+E=",
+        "rev": "688314f09ebb9f22fb562ca6ba4660a5f806b5e6",
+        "revCount": 171,
         "type": "tarball",
-        "url": "https://api.flakehub.com/f/pinned/MikaelFangel/DTUConnect/0.1.166%2Brev-bb728b8610bc638cc5e0f5400506446dc00a8e08/019f19c9-81d2-7e61-a6b4-986608e42984/source.tar.gz"
+        "url": "https://api.flakehub.com/f/pinned/MikaelFangel/DTUConnect/0.1.171%2Brev-688314f09ebb9f22fb562ca6ba4660a5f806b5e6/01a0d213-4c42-7d33-9554-a7111f093394/source.tar.gz"
       },
       "original": {
         "type": "tarball",
@@ -86,11 +86,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1789915421,
-        "narHash": "sha256-sLY2PSiu5EGJXgTDAQjHKzzezdpPk0lre9MD2VLpqew=",
+        "lastModified": 1790365885,
+        "narHash": "sha256-iQ0ebhiVo64NktTnwft9hNxlFu4j5cvljVxyJaEVIP4=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "1944398834e2b9677ee6081e11e42c32d7c1eb5d",
+        "rev": "7b4c5ec4bedaf1e062bbc1bcaeddbc6bd242aa1b",
         "type": "github"
       },
       "original": {
@@ -101,11 +101,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1789785513,
-        "narHash": "sha256-BMbikTjbh5H7ac/OjwGoJrlooh4dgNqhs51ABM83M7g=",
-        "rev": "20b1ddd1aa5ace70c9468305030aa4f9ef79671b",
+        "lastModified": 1790463110,
+        "narHash": "sha256-VZHcT2wKLkApBCACQ2SH4P1jVZUbbOA7jWAGi1MIViw=",
+        "rev": "e158d9ed9b51c98974c5e66e1ba1c9e0255fecaa",
         "type": "tarball",
-        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1076192.20b1ddd1aa5a/nixexprs.tar.zst"
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1080189.e158d9ed9b51/nixexprs.tar.zst"
       },
       "original": {
         "id": "nixpkgs",
