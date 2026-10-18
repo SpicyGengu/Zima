@@ -205,7 +205,7 @@
     trustedInterfaces = [ "tailscale0" ];
     
     # SSH port
-    allowedTCPPorts = [ 22 7003 ];
+    allowedTCPPorts = [ 22 7003 8081 3000 ];
     
     allowedTCPPortRanges = [ 
       { from = 1714; to = 1764; } # KDE Connect
